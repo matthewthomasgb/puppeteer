@@ -328,6 +328,30 @@ module.exports = [
     }
   },
   {
+    'name': 'iPhone 8 Plus',
+    'userAgent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+    'viewport': {
+      'width': 414,
+      'height': 736,
+      'deviceScaleFactor': 3,
+      'isMobile': true,
+      'hasTouch': true,
+      'isLandscape': false
+    }
+  },
+  {
+    'name': 'iPhone 8 Plus landscape',
+    'userAgent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+    'viewport': {
+      'width': 736,
+      'height': 414,
+      'deviceScaleFactor': 3,
+      'isMobile': true,
+      'hasTouch': true,
+      'isLandscape': true
+    }
+  },
+  {
     'name': 'iPhone X',
     'userAgent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
     'viewport': {
